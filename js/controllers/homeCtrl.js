@@ -8,6 +8,9 @@ stomApp.controller('homeCtrl', function ($scope) {
         $scope.removeClasses(tabClass);
         element.addClass($scope.classForMenuActive);
     };
+
+    var today = new Date();
+    $scope.date = today.getFullYear();
  
     $scope.removeClasses = function (el) {
         
