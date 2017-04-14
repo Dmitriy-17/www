@@ -1,0 +1,13 @@
+﻿.textMenu {
+    color: white; 
+    font-size:120%
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+
+.navbar-default {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+}
